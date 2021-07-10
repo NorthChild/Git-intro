@@ -14,3 +14,6 @@ intro to git commands
 `` git push `` and `` git pull ``
 - list all files as well as inivisible
 `` ls -a ``
+
+- committing should have a comment attached to it:
+`` git commit -m "this commit does this yada yada yada"
