@@ -1,8 +1,16 @@
 # Git-intro
 intro to git commands 
 
-
+# important commands
 - set up new repositories:
 `` git clone `` and `` git init ``  
 - committing new version of a file:
 `` git add ``, `` git status `` and `` git commit ``
+- to show list of old commits:
+`` git log ``
+- move or remove files tracked by Git
+`` git mv `` and `` git rm ``
+- synchronise commits with git repositories
+`` git push `` and `` git pull ``
+- list all files as well as inivisible
+`` ls -a ``
