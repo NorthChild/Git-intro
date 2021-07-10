@@ -16,4 +16,4 @@ intro to git commands
 `` ls -a ``
 
 - committing should have a comment attached to it:
-`` git commit -m "this commit does this yada yada yada"
+`` git commit -m "this commit does this yada yada yada"``
