@@ -17,3 +17,6 @@ intro to git commands
 
 - committing should have a comment attached to it:
 `` git commit -m "this commit does this yada yada yada"``
+when committing we need to add user name and email:
+`` git config --global user.email "user@email.com" ``
+`` git config --global user.name "userName" ``
