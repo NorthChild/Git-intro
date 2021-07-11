@@ -47,5 +47,8 @@ when committing we can add user name and email:
 - to access and revert a specific commit `` git log `` to find the specific SHA (first 5 chars) representing the commit you want to revert and then `` git revert 1a2b3 `` this will create a new commit `` git log `` to see the reverted and commited file, in a case where we're reverting a change that deleted a file inside the repo, this will bring the file back to the repo `` ls `` to check inside, to revert the most recent commit, first check `` git log `` then when sure `` git revert HEAD `` which reverts the latest file to be commited, in this case, since we're reverting the reversion of the deletion of the file, this time, it will delete the file again
 
 # Cloning a repository #
-
-- 
+- lets clone a repository, `` cd `` yourself to the parent directory and then `` git clone [directory to clone] [name of clone] `` when we are not cloning from our local directory we usually insert the url instead `` git close [url of file] [name of clone] `` 
+- when you clone a repo, it automatically becomes a remote repo, with default name 'origin', that you can see through `` git remote `` 
+- to pull the files from the 'original' repo that has the files you want to transfer to your personal repo `` git pull [name of repo, in this case 'original']
+- you can make your clone repo become a remote repo, making it easy to pass data from one to the other, while being inside the original repo `` git remote add [name we wanna give to the repo 'original' was the name of the main repo] [url of repo ../ if in same local machine] `` 
+- to find the branch of the repo `` git branch `` 
