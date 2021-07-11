@@ -41,5 +41,8 @@ when committing we can add user name and email:
 
 - when in the directory `` git rm name.file ``, remember to commit the change ``git commit -m "deleted file" 
 - to rename a file `` git mv [file.before] [file.now] `` where before is the og filename next to the new filename we chose, rememeber to commit the changes `` git commit -m "renamed file" ``
-- retrieve deleted files
+- to unstage a file that has been added to staging `` git reset HEAD file.name `` 
+- its unstaged but we still made a mistake in the new addition to the script, and we want to cancel and revert to the older commited versions, so we type `` git checkout -- file.name `` the '--' char notifies git that we're presenting file names
+- we can use the `` git checkout -- file.name `` method also to return a file that we `` rm file.name `` this will revert the change on the deletion of the file before it gets staged
+- to access and revert a specific commit `` git log `` to find the specific SHA (first 5 chars) representing the commit you want to revert and then `` git revert 1a2b3 `` this will create a new commit `` git log `` to see the reverted and commited file, in a case where we're reverting a change that deleted a file inside the repo, this will bring the file back to the repo `` ls `` to check inside, to revert the most recent commit, first check `` git log `` then when sure `` git revert HEAD `` which reverts the latest file to be commited 
 - 
