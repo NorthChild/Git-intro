@@ -50,5 +50,5 @@ when committing we can add user name and email:
 - lets clone a repository, `` cd `` yourself to the parent directory and then `` git clone [directory to clone] [name of clone] `` when we are not cloning from our local directory we usually insert the url instead `` git close [url of file] [name of clone] `` 
 - when you clone a repo, it automatically becomes a remote repo, with default name 'origin', that you can see through `` git remote `` 
 - to pull the files from the 'original' repo that has the files you want to transfer to your personal repo `` git pull [name of repo, in this case 'original']
-- you can make your clone repo become a remote repo, making it easy to pass data from one to the other, while being inside the original repo `` git remote add [name we wanna give to the repo 'original' was the name of the main repo] [url of repo ../ if in same local machine] `` 
-- to find the branch of the repo `` git branch `` 
+- you can make your clone repo become a remote repo, making it easy to pass data from one to the other, while being inside the original repo `` git remote add [name we wanna give to the repo 'original' was the name of the main repo] [url of repo ../ if in same local machine] `` if you're then trying to `` git pull [name of repo] `` and it saying that you need to specify a branch
+- to find the branch of the repo `` git branch `` after knowing the name of the branch, try `` git pull [name of repo] [name of branch] 
