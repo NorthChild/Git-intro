@@ -9,7 +9,7 @@ intro to git commands
 - to show list of old commits:
 `` git log ``
 - move or remove files tracked by Git
-`` git mv `` and `` git rm ``
+`` git mv `` and `` git rm `` or `` rm namefile.sd`` to delete from terminal and leave it in other repos
 - synchronise commits with git repositories
 `` git push `` and `` git pull ``
 - list all files as well as inivisible
@@ -37,6 +37,9 @@ when committing we can add user name and email:
   - later that day you want to see what you did, cos again you forgot `` git log -p`` will show you what you accessed and modified
 
 
-# Removing files #
+# Managing committed files #
 
+- when in the directory `` git rm name.file ``, remember to commit the change ``git commit -m "deleted file" 
+- to rename a file `` git mv [file.before] [file.now] `` where before is the og filename next to the new filename we chose, rememeber to commit the changes `` git commit -m "renamed file" ``
+- retrieve deleted files
 - 
