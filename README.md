@@ -31,7 +31,7 @@ when committing we can add user name and email:
 
 
 
-- #Case example: # we are inside the folder of our repository, we just modified two files
+- Case example: we are inside the folder of our repository, we just modified two files
   - we want to review what differences have been made to the files: `` git diff ``
   - we then want to add them to the stagign area: ``git add file1.html`` and then ``git add file2.html ``
   - we walk away for some coffe and we forget what we modified of the files, since the files are in staging area they cannot be viewed using `` git diff `` we need to instead use `` git diff --staged `` to see them past the modification stage
