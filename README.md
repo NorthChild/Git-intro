@@ -1,4 +1,4 @@
-# Git-intro
+# Git intro
 intro to git commands 
 
 # important commands
