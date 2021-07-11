@@ -15,6 +15,7 @@ intro to git commands
 - list all files as well as inivisible
 `` ls -a ``
 
+
 - committing should have a comment attached to it:
 `` git commit -m "this commit does this yada yada yada"``
 when committing we can add user name and email:
@@ -27,6 +28,7 @@ when committing we can add user name and email:
 `` git diff ``
 - to view files that have been staged, and check for differences/changes in the code
 `` git diff --staged ``
+
 
 
 - Case example: we are inside the folder of our repository, we just modified two files
