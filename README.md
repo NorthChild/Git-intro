@@ -28,7 +28,7 @@ when committing we can add user name and email:
 `` git diff --staged ``
 
 
-#Case Example#
+# Case Example #
 - We are inside the folder of our repository, we just modified two files
   - we want to review what differences have been made to the files: `` git diff ``
   - we then want to add them to the stagign area: ``git add file1.html`` and then ``git add file2.html ``
