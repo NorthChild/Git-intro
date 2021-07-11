@@ -45,4 +45,7 @@ when committing we can add user name and email:
 - its unstaged but we still made a mistake in the new addition to the script, and we want to cancel and revert to the older commited versions, so we type `` git checkout -- file.name `` the '--' char notifies git that we're presenting file names
 - we can use the `` git checkout -- file.name `` method also to return a file that we `` rm file.name `` this will revert the change on the deletion of the file before it gets staged
 - to access and revert a specific commit `` git log `` to find the specific SHA (first 5 chars) representing the commit you want to revert and then `` git revert 1a2b3 `` this will create a new commit `` git log `` to see the reverted and commited file, in a case where we're reverting a change that deleted a file inside the repo, this will bring the file back to the repo `` ls `` to check inside, to revert the most recent commit, first check `` git log `` then when sure `` git revert HEAD `` which reverts the latest file to be commited, in this case, since we're reverting the reversion of the deletion of the file, this time, it will delete the file again
+
+# Cloning a repository #
+
 - 
