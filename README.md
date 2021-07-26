@@ -5,7 +5,7 @@ intro to git commands
 - link repo to your shell
 `` git remote add origin [url of code] `` 
 - set up new repositories:
-`` git clone `` and `` git init ``  
+`` git clone [ url from github ] `` if you're inside another folder and want to clone an existing repo or `` git init ``  to initialize a folder
 - committing new version of a file:
 `` git add ``, `` git status `` and `` git commit ``
 - to show list of old commits:
