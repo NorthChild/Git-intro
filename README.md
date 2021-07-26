@@ -3,7 +3,7 @@ intro to git commands
 
 # important commands
 - set up new repositories:
-`` git clone `` and `` git init ``  
+`` git remote add origin [url of code] ``, `` git clone `` and `` git init ``  
 - committing new version of a file:
 `` git add ``, `` git status `` and `` git commit ``
 - to show list of old commits:
