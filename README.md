@@ -27,7 +27,7 @@ when committing we can add user name and email:
 - to specifically view what has been modified 
 `` git diff ``
 - to view files that have been staged, and check for differences/changes in the code
-`` git diff --staged ``
+`` git diff --staged `` and `` git diff --cached `` 
 
 
 # Case Example #
