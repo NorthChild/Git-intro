@@ -18,9 +18,13 @@ intro to git commands
 `` ls -a ``
 - committing should have a comment attached to it:
 `` git commit -m "this commit does this yada yada yada"``
-when committing we can add user name and email:
+- when committing we can add user name and email:
 `` git config --global user.email "user@email.com" ``
 `` git config --global user.name "userName" ``
+- changing branch
+`` git checkout -b [name of new branch] ``, to push it to the repo `` git --set-upstream origin [name of branch] ``
+- changing from one branch to another
+`` git checkout [name of branch] ``
 
 - view what changes have been made, no only who committed
 `` git log -p `` 
